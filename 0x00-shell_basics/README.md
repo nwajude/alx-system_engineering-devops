@@ -10,3 +10,4 @@ rm /tmp/dir/betty
 rmdir /tmp/dir
 cd -
 la -ls . .. /boot listing to boot dir.
+file filename
