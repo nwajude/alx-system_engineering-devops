@@ -11,3 +11,4 @@ rmdir /tmp/dir
 cd -
 la -ls . .. /boot listing to boot dir.
 file filename
+ln -s /bin/ls --ls--
