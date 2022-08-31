@@ -8,3 +8,4 @@ mkdir /tmp/my dir.
 mv /tmp/betty /tmp/dir.
 rm /tmp/dir/betty
 rmdir /tmp/dir
+cd ..
