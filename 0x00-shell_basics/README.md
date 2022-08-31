@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/dir.
 rm /tmp/dir/betty
 rmdir /tmp/dir
 cd -
+la . .. /boot listing to boot dir.
