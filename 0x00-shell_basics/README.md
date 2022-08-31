@@ -3,4 +3,5 @@ ls for list
 cd ~ for home dir.
 ls -l for long listing.
 la -al hidden file
-ls -an listing with numbers 
+ls -an listing with numbers
+mkdir /tmp/my dir.
