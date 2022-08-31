@@ -15,4 +15,5 @@ ln -s /bin/ls --ls--
 cp -u *.htmlfile parentdir/currentdir
 mv [[:upper:]]* /tmp/u
 rm *~ directory that ends with
-mkdir -p dir1/dir2/dir3 ~
+mkdir -p dir1/dir2/dir3
+ls -mpa imcluding .,/..
