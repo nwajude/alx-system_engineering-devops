@@ -7,3 +7,4 @@ ls -an listing with numbers
 mkdir /tmp/my dir.
 mv /tmp/betty /tmp/dir.
 rm /tmp/dir/betty
+rmdir /tmp/dir
