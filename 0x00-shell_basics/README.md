@@ -14,3 +14,4 @@ file filename
 ln -s /bin/ls --ls--
 cp -u *.htmlfile parentdir/currentdir
 mv [[:upper:]]* /tmp/u
+rm *~ directory that ends with ~
