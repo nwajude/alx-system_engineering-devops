@@ -2,4 +2,5 @@ pwd shows current working dir.
 ls for list
 cd ~ for home dir.
 ls -l for long listing.
-la -al hidden file 
+la -al hidden file
+ls -na listing with numbers 
