@@ -13,3 +13,4 @@ la -ls . .. /boot listing to boot dir.
 file filename
 ln -s /bin/ls --ls--
 cp -u *.htmlfile parentdir/currentdir
+mv [[:upper:]]* /tmp/u
