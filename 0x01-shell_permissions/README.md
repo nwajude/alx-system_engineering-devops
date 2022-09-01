@@ -9,3 +9,4 @@ chmod a+x ./filename
 chmod 007 filename
 chmod u+x filename
 chmod --reference= file1 file2
+chmod -R +X
