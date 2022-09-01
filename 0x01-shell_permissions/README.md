@@ -1,1 +1,2 @@
 su user
+whoami user
