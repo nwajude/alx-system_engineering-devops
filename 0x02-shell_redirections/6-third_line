@@ -1,2 +1,2 @@
 #!/bin/bash
-cat iactaa | wc -1
+cat iacta | wc -1
