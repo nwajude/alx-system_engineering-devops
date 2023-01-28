@@ -1,32 +1,20 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-sudo touch /var/run/holbertonscript.pid
-sudo bash -c "echo $$ > /var/run/holbertonscript.pid"
+# This script:
+# Creates the file /var/run/myscript.pid containing its PID
+# Displays To infinity and beyond indefinitely
+# Displays I hate the kill command when receiving a SIGTERM signal
+# Displays Y U no love me?! when receiving a SIGINT signal
+# Deletes the file /var/run/myscript.pid and terminates itself when
+# receiving a SIGQUIT or SIGTERM signal
 
-trap interrup2 SIGINT
-trap interrup1 SIGTERM
-trap interrup3 SIGQUIT
+echo $$ >> /var/run/myscript.pid
 
-interrup3()
-{
-    sudo rm /var/run/holbertonscript.pid
-    exit $?
-}
-
-interrup2()
-{
-    echo "Y U no love me?!"
-}
-
-interrup1()
-{
-    echo "I hate the kill command"
-    sudo rm /var/run/holbertonscript.pid
-    exit $?
-}
+trap "echo 'I hate the kill command'; rm -rf /var/run/myscript.pid; exit" SIGTERM
+trap "echo 'Y U no love me?!'" SIGINT
+trap "rm -rf /var/run/holbertonscript.pid; exit" SIGQUIT
 
 while true
-do
-    echo "To infinity and beyond"
+do 
+    echo 'To infinity and beyond' 
     sleep 2
 done
